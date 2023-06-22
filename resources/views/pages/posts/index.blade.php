@@ -13,7 +13,7 @@
                     </button>
                 </div>
 
-                
+
             <!-- Modal -->
                 <div class="w-100">
                     @livewire('post')

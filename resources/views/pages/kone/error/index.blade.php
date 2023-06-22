@@ -33,7 +33,7 @@
                             </tr>
                             @foreach($errors as $error)
                                 <tr>
-                                    <td><button id="row{{$error->id}}" class="btn btn-primary btn-sm" onclick="copyRowToClipboard('row{{$error->id}}')">Másolás</button></td>
+                                    <td><button id="row{{$error->id}}" class="btn btn-primary btn-sm" >Másolás</button></td>
                                     <td>{{date('mddi',strtotime($error->created_at)) }}_P</td>
                                     <td>{{date('Y.m.d',strtotime($error->created_at)) }}</td>
                                     <td>{{date('H:i',strtotime($error->created_at)) }}</td>
@@ -62,7 +62,6 @@
         </div>
 
     </div>
-
 
 @endsection
 
