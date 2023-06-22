@@ -11,16 +11,6 @@
                     </button>
                 </div>
 
-                {{--<form id="post-form">
-                    @csrf
-                    <input type="text" id="author" name="author" placeholder="Author">
-                    <textarea id="content" name="content" placeholder="Content"></textarea>
-                    <input type="text" id="image" name="image" placeholder="Image URL (optional)">
-                    <input type="text" id="category" name="category" placeholder="Category">
-                    <button type="submit">Submit</button>
-                </form>--}}
-
-
                 <!-- Modal -->
 
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
