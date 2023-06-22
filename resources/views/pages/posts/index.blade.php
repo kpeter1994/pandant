@@ -13,9 +13,7 @@
                     </button>
                 </div>
 
-                <h1 class="text-white">Git Teszt</h1>
-
-
+                
             <!-- Modal -->
                 <div class="w-100">
                     @livewire('post')
